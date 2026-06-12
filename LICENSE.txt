@@ -1,0 +1,34 @@
+DocKit: OpenAPI Documentation Toolkit for Visual Studio Code (dockit.oas-docs) - END USER LICENSE AGREEMENT (EULA)
+Copyright (C) 2026 Manu Kumar. All Rights Reserved (excluding bundled third-party open-source software).
+
+This software application (the "Extension") consists of proprietary components (including but not limited to the user interface and integration logic) owned by Manu Kumar ("Licensor"), and also includes bundled third-party open-source software as detailed in the THIRD_PARTY_NOTICES.txt file. The proprietary components of the Extension are licensed, not sold, to you subject to the terms and conditions contained herein.
+
+1. LICENSE GRANT
+Licensor hereby grants you a personal, non-exclusive, non-transferable, and revocable license to use the Extension within Visual Studio Code or Eclipse Theia environments in accordance with the terms of this Agreement. If you obtained the Extension through a marketplace (such as the Visual Studio Marketplace or Open VSX Registry), your use is additionally subject to that marketplace's terms of use. Free or Evaluation tiers may feature functional limitations. Premium, commercial, or enterprise features require a valid, active paid subscription or license key.
+
+2. RESTRICTIONS
+The following restrictions apply solely to the proprietary components of the Extension and do not limit any rights granted to you under the open-source licenses of bundled third-party components (see Sections 3 and 7). You agree not to, and you will not permit others to:
+(a) Decompile, reverse engineer, disassemble, or attempt to derive the source code of the Extension (except to the extent explicit actions are permitted by mandatory applicable local law).
+(b) Modify, adapt, alter, translate, or create derivative works from the Extension.
+(c) Rent, lease, loan, resell, sublicense, distribute, or otherwise transfer the Extension or commercial license keys to any third party.
+
+3. INTELLECTUAL PROPERTY & OWNERSHIP
+All copyrights, trademarks, and intellectual property rights in and to the Extension (excluding any bundled third-party open-source software) remain the exclusive property of Licensor. Nothing in this Agreement shall restrict, limit, or otherwise affect any rights or obligations you may have under any applicable open-source licenses for such third-party components.
+
+4. PRIVACY AND DATA PROCESSING
+The Extension operates entirely locally on your machine. Licensor does not collect, store, transmit, or have access to any source code, API definitions, personal data, or documentation handled by the Extension. You are solely responsible for ensuring your use of the Extension complies with your organization's data security policies.
+
+5. DISCLAIMER OF WARRANTY
+THE EXTENSION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. LICENSOR DISCLAIMS ALL WARRANTIES, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, LOSS OF DATA, BUSINESS INTERRUPTION, OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE SOFTWARE. IN NO EVENT SHALL LICENSOR’S TOTAL LIABILITY TO YOU FOR ALL CLAIMS AND DAMAGES EXCEED INR 1,000 (OR THE EQUIVALENT OF USD 15), OR THE TOTAL FEES ACTUALLY PAID BY YOU TO LICENSOR FOR THE SOFTWARE IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, WHICHEVER IS GREATER.
+
+7. TERMINATION
+This Agreement is effective until terminated. Your rights under this license will terminate automatically without notice if you fail to comply with any term.
+
+8. THIRD-PARTY OPEN SOURCE SOFTWARE
+The Extension bundles, depends upon, or interacts with third-party open-source libraries. These third-party components are not owned by Licensor and are subject to their own respective copyright notices and open-source licenses. Please refer to the THIRD_PARTY_NOTICES.txt file included with this distribution for all required copyright notices and permission blocks related to these open-source components.
+
+9. GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles. The parties hereby agree that the courts located in Bengaluru, Karnataka, shall have exclusive jurisdiction to settle any disputes arising out of or in connection with this Agreement.
