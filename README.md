@@ -1,4 +1,4 @@
-# DocKit: OpenAPI Documentation Toolkit
+# DocKit: OpenAPI Documentation Toolkit for Visual Studio Code
 
 The DocKit extension transforms VS Code into a dedicated OpenAPI documentation editor. It streamlines the workflow for navigating, editing, and validating large OpenAPI (3.x) and Swagger (2.x) specification files using a native, dual-sidebar interface.
 
