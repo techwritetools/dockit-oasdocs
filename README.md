@@ -2,15 +2,15 @@
 
 The DocKit extension transforms VS Code into a dedicated OpenAPI documentation editor. It streamlines the workflow for navigating, editing, and validating large OpenAPI (3.x) and Swagger (2.x) specification files using a native, dual-sidebar interface.
 
-> **Note:** DocKit is currently an early preview (v0.1.x). Core workflows are stable, but expect rough edges — feedback is very welcome (see [Feedback and Support](#-feedback-and-support)).
+> **Note:** DocKit is currently in preview (v0.1.1) for feedback and suggestions (see [Feedback and Support](#feedback-and-support)).
 
-<!-- TODO: Add a hero screenshot/GIF here showing the dual-sidebar layout and leaf editing. -->
+![DocKit User Interface](./images/dockit-ui.png)
 
 ## 📋 Requirements & Installation
 
-*   Visual Studio Code **1.118.0** or later (or a compatible Eclipse Theia build).
-*   Install from the VS Code Marketplace (search for "DocKit"), or via `code --install-extension dockit.oas-docs`.
-*   No additional runtime requirements — validation, linting, and spell checking all run locally and offline.
+*   Visual Studio Code **1.118.0** or later. No additional runtime requirements—validation, linting, and spell checking all run locally and offline.
+*   Install from the VS Code Marketplace (search for "DocKit"), or run this command in your terminal: 
+  `code --install-extension dockit.oas-docs`.
 
 ## 🎯 Who is this for?
 
@@ -64,12 +64,15 @@ All commands are available from the Command Palette (`Ctrl+Shift+P`):
 
 ## 🛠️ Getting Started
 
-For the best experience, set up DocKit's recommended dual-sidebar layout.
+**NOTE**: For the best experience, use DocKit's recommended dual-sidebar layout. 
 
-1.  Open an OpenAPI (3.x) or Swagger (2.x) specification file (`.json`, `.jsonc`, `.yaml`, or `.yml`).
-2.  Click the **DocKit** icon in the VS Code Activity Bar to open the primary sidebar.
-3.  Open the Secondary Side Bar by running **`View: Toggle Secondary Side Bar`** from the Command Palette (`Ctrl+Shift+P`).
-4.  Find the **DocKit: Inspector** view container. If it's not in the Secondary Side Bar, you can drag its icon there. VS Code will remember this layout.
+After you install DocKit, follow these steps:
+
+1.  Click the **DocKit** icon in the VS Code Activity Bar to open the primary sidebar.
+2.  Open the Secondary Side Bar by running **`View: Toggle Secondary Side Bar`** from the Command Palette (`Ctrl+Shift+P`).
+3.  Open the **DocKit: Inspector** view container.  
+4.  As the **DocKit: Inspector** opens in the primary sidebar by default, you need to manually move (drag) it to the secondary sidebar once. VS Code will remember this layout thereafter. 
+5.  Open an OpenAPI (3.x) or Swagger (2.x) specification file (`.json`, `.jsonc`, `.yaml`, or `.yml`). The extension includes the petstore sample OAS files (JSON and YAML formats) in the `samples` folder. You can use these for a quick start.
 
 ### How to Use the DocKit Sidebars
 
@@ -101,7 +104,7 @@ DocKit is made possible by the incredible work of the open-source community. I w
 *   Other foundational permissive libraries (e.g., `ajv`, `jsonc-parser`, `yaml`).
 *   **Spell-check word lists:** The bundled dictionary is consolidated from SCOWL (via `wooorm/dictionaries`), `dwyl/english-words`, `cspell-dicts` software terms, and `textlint-rule-terminology` data.
 
-While the specific VS Code extension UI and the integration code tying these tools together are proprietary (see `LICENSE.txt`), all bundled third-party open-source software are subject to their own respective copyright notices and open-source licenses. For a comprehensive list of all bundled dependencies, transitive libraries, and required legal notice texts and open-source licenses, please consult the `THIRD_PARTY_NOTICES.txt` file included with this extension distribution.
+While the specific VS Code extension UI and the integration code tying these tools together are proprietary (see `LICENSE.txt`), all bundled third-party open-source software is subject to its own respective copyright notices and open-source licenses. For a comprehensive list of all bundled dependencies, transitive libraries, and required legal notice texts and open-source licenses, please consult the `THIRD_PARTY_NOTICES.txt` file included with this extension distribution.
 
 ## ⚠️ Known Limitations
 
